@@ -1,0 +1,268 @@
+body {
+  font-size: 1em;
+  font-family: "Open Sans", sans-serif;
+  background: url("../img/bg.png") #383838;
+  color: #fafafa;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: #fafafa;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.button,
+button {
+  border: 0;
+  display: inline-block;
+  background: linear-gradient(145deg, #e00408, #fc4c7b);
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-family: "Open Sans", sans-serif;
+  color: #fafafa;
+  margin: 20px 0px 20px 0px;
+}
+
+.button:hover,
+button:hover {
+  background: linear-gradient(145deg, #fc4c7b, #e00408);
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 32px;
+  text-align: center;
+  margin: 40px 0px 40px 0px;
+}
+
+header {
+  background: url("../img/bg-01.jpg") center/cover no-repeat #666;
+  padding: 150px 0px 80px 0px;
+  min-height: 280px;
+}
+
+header .topbar {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+header .topbar .menu li {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+header .topbar .menu li a {
+  display: block;
+  padding: 20px;
+}
+
+header .topbar .menu li a:hover {
+  background: #b91a34;
+}
+
+header .red {
+  background: #e00408a9;
+}
+
+header h1 {
+  text-align: center;
+  margin-bottom: 54px;
+  font-size: 5.6em;
+  padding-top: 0;
+  font-family: "Metal Mania", cursive;
+}
+
+header .button {
+  display: block;
+  margin: 60px auto;
+  text-align: center;
+  width: 100%;
+  max-width: 320px;
+  padding: 20px 0px;
+}
+
+#tour:after {
+  content: "";
+  display: block;
+  height: auto;
+  clear: both;
+}
+
+#tour .tour-card {
+  float: left;
+  width: 220px;
+  height: 240px;
+  margin: 0px 10px 20px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 39px 10px 64px;
+  -webkit-box-shadow: 0 3px 3px 0 #212121;
+          box-shadow: 0 3px 3px 0 #212121;
+}
+
+#tour .tour-card .tour-town {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+#tour .tour-card .tour-place {
+  margin-bottom: 10px;
+}
+
+#tour .tour-card .tour-place:before {
+  padding-right: 7px;
+}
+
+#tour .tour-card .tour-date {
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+#tour .tour-card .button {
+  display: block;
+  text-align: center;
+  max-width: 140px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tour .madrid {
+  background: url("../img/tour/madrid.jpg") center/cover no-repeat #666;
+}
+
+#tour .turin {
+  background: url("../img/tour/turin.jpg") center/cover no-repeat #666;
+}
+
+#tour .hamburg {
+  background: url("../img/tour/hamburg.jpg") center/cover no-repeat #666;
+}
+
+#tour .krakow {
+  background: url("../img/tour/krakow.jpg") center/cover no-repeat #666;
+}
+
+#gallery::after {
+  content: "";
+  display: block;
+  height: auto;
+  clear: both;
+}
+
+#gallery .photo {
+  float: left;
+  width: 33.333%;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#gallery .photo:hover {
+  opacity: 0.6;
+}
+
+#gallery .photo img {
+  -webkit-box-shadow: 0 3px 3px 0 #212121;
+          box-shadow: 0 3px 3px 0 #212121;
+}
+
+#subscribe {
+  background: url("../img/bg-02.jpg") center/cover #666;
+  padding: 76px 0px 52px 0px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#subscribe .pitch {
+  margin-bottom: 20px;
+}
+
+#subscribe .pitch p {
+  line-height: 1.6;
+}
+
+#subscribe input {
+  border: 0;
+  font-size: 1.2em;
+  padding-left: 10px;
+  font-family: "Open Sans", sans serif;
+  height: 40px;
+  background-color: #fafafa;
+}
+
+#subscribe button {
+  margin: 0;
+  font-size: 1.2em;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 42px;
+}
+
+footer {
+  text-align: center;
+  padding: 26px 0px 24px 0px;
+  background-color: #222;
+  background-image: url("../img/bg.png");
+}
+
+footer .social {
+  margin-bottom: 10px;
+}
+
+footer .social a {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+footer .social a:hover {
+  background: #b91a34;
+}
+
+footer .copyright {
+  font-size: 0.8em;
+}
+
+@media (max-width: 980px) {
+  #tour {
+    text-align: center;
+  }
+  #tour .tour-card {
+    float: none;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu {
+    text-align: center;
+  }
+  .menu li a {
+    padding: 5px;
+  }
+  #subscribe button {
+    width: 236px;
+    margin-top: 20px;
+  }
+}
